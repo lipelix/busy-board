@@ -4,15 +4,20 @@
 <br />
 <div align="center">
 
-  <h1 align="center">Busy Board</h3>
+  <h1 align="center">🕹️ Busy Board</h3>
 
   <p align="center">
     Decrease your child’s boredom and yours as well.
     <br />
-    <a href="https://github.com/lipelix/busy-board/issues">Leave a comment (by creating issue)</a>
+    <a href="https://github.com/lipelix/busy-board/discussions/categories/general">Leave a comment in discussion</a>
   </p>
 
-  ![Tester in action](assets/tester_in_action.jpeg)
+<table>
+    <tr>
+        <td><img src="assets/tester_in_action.jpeg"></td>
+        <td><img src="assets/tester_in_action2.jpeg"></td>
+    </tr>
+</table>
 
 </div>
 
@@ -26,7 +31,7 @@ Bad weather, long afternoons, soft illnesses, all of these can be a reason for y
 
 ### Built and Deploy
 
-For this project, I used stuff from my toolbox:
+For this project, I used materials from my toolbox, debris, and some electronic components:
 - 🔫 Drill
 - ▲ Step drills to plastics
 - 🪛 Screwdriver
@@ -36,6 +41,7 @@ For this project, I used stuff from my toolbox:
 - 🪵 Wood board (residue from Ikea furniture)
 - 📦 Wiring box
 - 📏 Sanitary pipe
+- 🔽 [MP1584EN Step-down Voltage module](https://dratek.cz/arduino/121945-mini-step-down-modul-3a-s-mp1584en.html) |  ![MP1584EN Step-down Voltage module](https://img.shields.io/badge/Bought%20on-dratek.cz-088F8F.svg)
 - 🕹️ [Switch](https://www.laskakit.cz/packovy-prepinac-1-5a-250vac/) | ![Switch](https://img.shields.io/badge/Bought%20on-laskakit.cz-brightgreen.svg)
 - 🔋 [Battery box](https://www.laskakit.cz/bateriovy-box-3xaa-uzavreny-s-vypinacem/) | ![Battery](https://img.shields.io/badge/Bought%20on-laskakit.cz-brightgreen.svg)
 - 〰️ [Wires](https://www.laskakit.cz/propojovaci-vodice-10cm-20-kusu/) | ![Wires](https://img.shields.io/badge/Bought%20on-laskakit.cz-brightgreen.svg)
@@ -69,14 +75,13 @@ The next step was to create holes for buttons, switch to the Wiring box, and pla
 
 ![HeatGun](assets/heat_gun.jpeg)
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-
-<br />
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+The inside of the wiring box is a bit messy, but it functions well 🙃:
+- The battery box is connected to a step-down voltage regulator.
+- The negative output of the regulator connects to a resistor.
+- Each LED branch with a button (or switch) connects to the positive terminal of the regulator and to the resistor in parallel.
+ 
+![Schema](assets/schema.png)
+![Inside](assets/inside.jpeg)
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -107,7 +112,9 @@ Libor Váchal - [LinkedIn](https://www.linkedin.com/in/liborvachal/)
 
 Valuable links and things worth mentioning.
 
-* [Laskakit.cz](https://www.laskakit.cz/) - Czech e-shop with electronics (3 days delivery max if you need it quick)
-* [Aliexpress](https://www.aliexpress.com/) - Chinese shop with everything (1-week delivery min if you are lucky)
+* [Laskakit.cz](https://www.laskakit.cz/) - 🇨🇿 Czech e-shop with electronics (3 days delivery max)
+* [Dratek.cz](https://www.dratek.cz/) - 🇨🇿 Czech e-shop with electronics (3 days delivery max)
+* [Aliexpress](https://www.aliexpress.com/) - 🇨🇳 Chinese shop with everything (1-week delivery min if you are lucky)
+* [Tinkercard](https://www.tinkercad.com/dashboard) - Online circuit simulator
 
 <p align="right">(<a href="#top">back to top</a>)</p>
