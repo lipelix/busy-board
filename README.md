@@ -75,6 +75,8 @@ The next step was to create holes for buttons, switch to the Wiring box, and pla
 
 ![HeatGun](assets/heat_gun.jpeg)
 
+## Schema
+
 The inside of the wiring box is a bit messy, but it functions well 🙃:
 - The battery box is connected to a step-down voltage regulator.
 - The negative output of the regulator connects to a resistor.
@@ -82,6 +84,13 @@ The inside of the wiring box is a bit messy, but it functions well 🙃:
  
 ![Schema](assets/schema.png)
 ![Inside](assets/inside.jpeg)
+
+### `01-15-2025`
+---
+- Fix the holder for the LED - use 5mm LED holder for 5mm LED 🙃
+- Add Zpiper to the board - customer seems to like it 😈
+
+![Zipper](assets/zipper.jpeg)
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -91,10 +100,12 @@ The inside of the wiring box is a bit messy, but it functions well 🙃:
   - [x] Add LEDs and buttons to the breadboard
   - [x] Add power source
   - [x] Solder all the stuff
-- [ ] Fix holder for LED
+- [x] Fix holder for LED
 - [ ] Add More Activities
   - [ ] Old watches
-  - [ ] Zipper
+  - [x] Zipper
+  - [ ] Magnetically controlled LEDs
+  - [ ] Rotating wheel
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
